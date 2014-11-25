@@ -26,7 +26,7 @@ class Person {
     }
 
     String getFirstName(){
-        return name.substring(TODO)
+        return name.replaceFirst('\\s.+$', "")
     }
 
     @Override

@@ -8,7 +8,7 @@ class Etters extends GroovyTestCase {
 
         println person.age
 
-        person.name = "Афанасий Петров"
+        person.name = "Афанасий Сидоров"
         println person
     }
 
@@ -37,5 +37,11 @@ class Etters extends GroovyTestCase {
         Person person = new Person("Вася", 99)
         person.anotherAgeSetter(666)
         println person
+    }
+
+    void testNoField() {
+
+        Person person = new Person("Александр Пушкин", 215)
+        println person.firstName
     }
 }
