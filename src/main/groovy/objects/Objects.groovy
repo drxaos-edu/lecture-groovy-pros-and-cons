@@ -13,6 +13,6 @@ public class Objects {
 
         println 'x'.toUpperCase()
 
-        println 0xFF.compareTo(256)
+        println 0xFF.compareTo(255)
     }
 }
