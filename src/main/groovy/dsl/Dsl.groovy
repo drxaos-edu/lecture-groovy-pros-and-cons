@@ -44,7 +44,7 @@ class Dsl {
             return this
         }
 
-        int "getHave"() {
+        def "getHave"() {
             return state[person][fruits.name] ?: 0
         }
     }
